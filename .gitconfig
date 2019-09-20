@@ -1,0 +1,55 @@
+[user]
+	email = laitinson@gmail.com
+	name = Tinson Lai
+	signingKey = 86D0E9CB6DA7AEEA
+[commit]
+	gpgsign = true
+[tag]
+	forceSignAnnotated = true
+	gpgSign = true
+[core]
+	eol = lf
+	autocrlf = false
+	safecrlf = false
+	editor = nano
+[tar]
+	umask = 0022
+[push]
+	default = current
+	followTags = true
+	gpgSign = if-asked
+[pull]
+	rebase = merges
+[merge]
+	directoryRenames = true
+	renormalize = true
+[diff]
+	renames = copies
+[fetch]
+	prune = true
+	pruneTags = true
+[color]
+	ui = always
+[color "status"]
+	added = green
+	changed = yellow bold
+	untracked = red bold
+	branch = blue bold
+	remoteBranch = cyan bold
+	updated = yellow
+	noBranch = red bold
+	localBranch = green bold
+	unmerged = magenta bold
+[column]
+	ui = auto
+[color "transport"]
+	rejected = red bold
+[color "push"]
+	error = red bold
+[color "branch"]
+	current = green bold
+	local = magenta
+	remote = cyan
+	upstream = blue
+[color "advice"]
+	hint = yellow
