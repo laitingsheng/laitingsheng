@@ -2,7 +2,9 @@
     email = laitinson@gmail.com
     name = Tinson Lai
 [include]
-    path = ~/.credentials/git_sign_key.gitconfig
+    path = ~/.credentials/signkey.gitconfig
+[credential]
+    helper = store --file ~/.credentials/git.credentials
 [commit]
     gpgsign = true
 [tag]
@@ -13,6 +15,8 @@
     autocrlf = false
     safecrlf = false
     editor = nano
+    ignoreCase = false
+    symlinks = true
 [tar]
     umask = 0022
 [push]
