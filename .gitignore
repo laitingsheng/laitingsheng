@@ -1,17 +1,17 @@
+# exclude all files
 /*
+
+# only specific files are included
 !/README.md
 !/.gitignore
 !/.gitmodules
 !/.gitconfig
-!/.bashrc
-!/.bash_logout
-!/.profile
-!/.bash_profile
 !/.nanorc
 
 # directories
 !/.ssh
 !/.vscode
+!/.docker
 
 # submodules
 !/.nano
