@@ -3,10 +3,6 @@
 !/.gitignore
 !/.gitmodules
 !/.gitconfig
-!/.bashrc
-!/.bash_logout
-!/.profile
-!/.bash_profile
 !/.nanorc
 
 # directories
