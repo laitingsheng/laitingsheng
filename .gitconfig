@@ -28,6 +28,7 @@
 [fetch]
 	prune = true
 	pruneTags = true
+	recurseSubmodules = true
 [color]
 	ui = always
 [color "status"]
