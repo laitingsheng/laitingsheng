@@ -1,4 +1,7 @@
+# exclude all files
 /*
+
+# only specific files are included
 !/README.md
 !/.gitignore
 !/.gitmodules
