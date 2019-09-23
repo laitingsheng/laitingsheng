@@ -1,56 +1,57 @@
 [user]
-	email = laitinson@gmail.com
-	name = Tinson Lai
-	signingKey = 86D0E9CB6DA7AEEA
+    email = laitinson@gmail.com
+    name = Tinson Lai
+[include]
+    path = ~/.credentials/git_sign_key.gitconfig
 [commit]
-	gpgsign = true
+    gpgsign = true
 [tag]
-	forceSignAnnotated = true
-	gpgSign = true
+    forceSignAnnotated = true
+    gpgSign = true
 [core]
-	eol = lf
-	autocrlf = false
-	safecrlf = false
-	editor = nano
+    eol = lf
+    autocrlf = false
+    safecrlf = false
+    editor = nano
 [tar]
-	umask = 0022
+    umask = 0022
 [push]
-	default = current
-	followTags = true
-	gpgSign = if-asked
+    default = current
+    followTags = true
+    gpgSign = if-asked
 [pull]
-	rebase = merges
+    rebase = merges
 [merge]
-	directoryRenames = true
-	renormalize = true
+    directoryRenames = true
+    renormalize = true
 [diff]
-	renames = copies
+    renames = copies
 [fetch]
-	prune = true
-	pruneTags = true
-	recurseSubmodules = true
+    prune = true
+    pruneTags = true
+    recurseSubmodules = true
 [color]
-	ui = always
+    ui = always
 [color "status"]
-	added = green
-	changed = yellow bold
-	untracked = red bold
-	branch = blue bold
-	remoteBranch = cyan bold
-	updated = yellow
-	noBranch = red bold
-	localBranch = green bold
-	unmerged = magenta bold
+    added = green
+    changed = yellow bold
+    untracked = red bold
+    branch = blue bold
+    remoteBranch = cyan bold
+    updated = yellow
+    noBranch = red bold
+    localBranch = green bold
+    unmerged = magenta bold
 [column]
-	ui = auto
+    ui = auto
 [color "transport"]
-	rejected = red bold
+    rejected = red bold
 [color "push"]
-	error = red bold
+    error = red bold
 [color "branch"]
-	current = green bold
-	local = magenta
-	remote = cyan
-	upstream = blue
+    current = green bold
+    local = magenta
+    remote = cyan
+    upstream = blue
 [color "advice"]
-	hint = yellow
+    hint = yellow

@@ -1,12 +1,18 @@
 /*
+!/README.md
 !/.gitignore
 !/.gitmodules
-!/.ssh
-!/.credentials
 !/.gitconfig
 !/.bashrc
 !/.bash_logout
 !/.profile
 !/.bash_profile
-!/.nano
 !/.nanorc
+
+# directories
+!/.ssh
+!/.vscode
+
+# submodules
+!/.nano
+!/.credentials
