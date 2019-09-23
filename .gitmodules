@@ -1,3 +1,6 @@
 [submodule ".nano"]
 	path = .nano
 	url = git@github.com:scopatz/nanorc.git
+[submodule ".credentials"]
+	path = .credentials
+	url = git@gitlab.com:laitingsheng/credentials.git
