@@ -1,7 +1,7 @@
 [user]
-    email = laitinson@gmail.com
     name = Tinson Lai
 [include]
+    path = ~/email.gitconfig
     path = ~/.credentials/signkey.gitconfig
 [credential]
     helper = store --file ~/.credentials/git.credentials
