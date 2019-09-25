@@ -11,6 +11,7 @@
 # directories
 !/.ssh
 !/.vscode
+!/.docker
 
 # submodules
 !/.nano
