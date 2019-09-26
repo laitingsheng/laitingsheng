@@ -1,10 +1,8 @@
 [user]
     name = Tinson Lai
+    email = laitingsheng@hotmail.com
 [include]
-    path = ~/email.gitconfig
     path = ~/.credentials/signkey.gitconfig
-[credential]
-    helper = store --file ~/.credentials/git.credentials
 [commit]
     gpgsign = true
 [tag]
@@ -17,6 +15,7 @@
     editor = nano
     ignoreCase = false
     symlinks = true
+    filemode = true
 [tar]
     umask = 0022
 [push]
