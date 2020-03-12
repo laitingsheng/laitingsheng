@@ -10,6 +10,7 @@
 
 # directories
 !/.ssh
+!/.subversion
 !/.vscode
 !/.docker
 
