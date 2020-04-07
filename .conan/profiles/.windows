@@ -1,0 +1,14 @@
+include(.release)
+include(.vs2019)
+
+[settings]
+os = Windows
+os.subsystem = None
+os_build = Windows
+os_target = Windows
+
+[options]
+
+[build_requires]
+
+[env]

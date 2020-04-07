@@ -3,13 +3,16 @@
 
 # only specific files are included
 !/README.md
+!/.editorconfig
 !/.gitignore
 !/.gitmodules
 !/.gitconfig
+!/.nanorc
 
 # directories
 !/.ssh
 !/.subversion
+!/.conan
 
 # submodules
 !/.nano
