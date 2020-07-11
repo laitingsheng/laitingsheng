@@ -1,0 +1,13 @@
+include(.release)
+include(.gcc9)
+
+[settings]
+os = Linux
+os_build = Linux
+os_target = Linux
+
+[options]
+
+[build_requires]
+
+[env]
