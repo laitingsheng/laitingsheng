@@ -3,6 +3,7 @@
 
 # only specific files are included
 !/README.md
+!/.editorconfig
 !/.gitignore
 !/.gitmodules
 !/.gitconfig
