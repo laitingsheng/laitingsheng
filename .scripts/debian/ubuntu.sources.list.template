@@ -1,0 +1,6 @@
+deb %REPO% %DIST% main restricted universe multiverse
+deb %REPO% %DIST%-updates main restricted universe multiverse
+deb %REPO% %DIST%-security main restricted universe multiverse
+deb %REPO% %DIST%-proposed main restricted universe multiverse
+deb %REPO% %DIST%-backports main restricted universe multiverse
+deb http://archive.canonical.com/ubuntu %DIST% partner

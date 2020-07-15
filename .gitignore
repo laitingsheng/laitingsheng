@@ -13,6 +13,7 @@
 !/.ssh
 !/.subversion
 !/.conan
+!/.scripts
 
 # submodules
 !/.nano
