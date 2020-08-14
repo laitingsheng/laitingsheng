@@ -8,8 +8,8 @@ trim_trailing_whitespace = true
 insert_final_newline = true
 end_of_line = lf
 
-[Makefile]
+[{Makefile,.gitmodules,.git/config}]
 indent_style = tab
 
-[*.{json,yaml,yml}]
+[*.{json,yaml,yml,xml,html,css,tex,bib}]
 indent_size = 2
