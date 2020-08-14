@@ -163,5 +163,5 @@
 # Password / passphrase caching parameters:
 store-passwords = yes
 # store-ssl-client-cert-pp = no
-store-plaintext-passwords = yes
+# store-plaintext-passwords = no
 # store-ssl-client-cert-pp-plaintext = no
