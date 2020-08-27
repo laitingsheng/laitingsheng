@@ -7,3 +7,6 @@
 [submodule ".scripts"]
 	path = .scripts
 	url = git@github.com:laitingsheng/Scripts.git
+[submodule ".gitignores"]
+	path = .gitignores
+	url = git@github.com:github/gitignore.git
