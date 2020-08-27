@@ -16,6 +16,7 @@
     ignoreCase = false
     symlinks = true
     filemode = true
+    longpaths = true
 [tar]
     umask = 0022
 [push]

@@ -8,13 +8,19 @@
 !/.gitmodules
 !/.gitconfig
 !/.nanorc
+!/.clang-format
+!/.bashrc
+!/.profile
 
 # directories
 !/.ssh
 !/.subversion
 !/.conan
 !/.scripts
+!/.dependabot
+!/.docker
 
 # submodules
 !/.nano
 !/.credentials
+!/.gitignores
