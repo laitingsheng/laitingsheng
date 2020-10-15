@@ -15,6 +15,7 @@
 !/.conan
 !/.scripts
 !/.dependabot
+!/.docker
 
 # submodules
 !/.nano
