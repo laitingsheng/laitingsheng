@@ -8,6 +8,7 @@
 !/.gitmodules
 !/.gitconfig
 !/.nanorc
+!/.clang-format
 
 # directories
 !/.ssh
