@@ -9,6 +9,8 @@
 !/.gitconfig
 !/.nanorc
 !/.clang-format
+!/.bashrc
+!/.profile
 
 # directories
 !/.ssh
