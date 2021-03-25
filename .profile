@@ -27,6 +27,6 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 # set PATH so it includes CUDA bin if it exists
-if [ -d "/usr/local/cuda/bin"] ; then
+if [ -d "/usr/local/cuda/bin" ] ; then
     PATH="/usr/local/cuda/bin:$PATH"
 fi
