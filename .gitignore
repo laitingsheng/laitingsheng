@@ -19,6 +19,7 @@
 !/.scripts
 !/.dependabot
 !/.docker
+!/.jupyter
 
 # submodules
 !/.nano
