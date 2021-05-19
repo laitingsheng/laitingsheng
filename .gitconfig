@@ -12,7 +12,6 @@
     eol = lf
     autocrlf = false
     safecrlf = false
-    editor = nano
     ignoreCase = false
     symlinks = true
     filemode = true

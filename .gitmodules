@@ -10,3 +10,6 @@
 [submodule ".gitignores"]
 	path = .gitignores
 	url = git@github.com:github/gitignore.git
+[submodule ".vim_runtime"]
+	path = .vim_runtime
+	url = https://github.com/amix/vimrc.git
