@@ -8,19 +8,25 @@
 !/.gitmodules
 !/.gitconfig
 !/.nanorc
+!/.vimrc
 !/.clang-format
 !/.bashrc
 !/.profile
+!/.bash_logout
+!/.condarc
 
 # directories
+!/.config
 !/.ssh
 !/.subversion
 !/.conan
 !/.scripts
 !/.dependabot
 !/.docker
+!/.jupyter
 
 # submodules
 !/.nano
+!/.vim_runtime
 !/.credentials
 !/.gitignores
