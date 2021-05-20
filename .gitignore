@@ -8,9 +8,11 @@
 !/.gitmodules
 !/.gitconfig
 !/.nanorc
+!/.vimrc
 !/.clang-format
 !/.bashrc
 !/.profile
+!/.bash_logout
 
 # directories
 !/.ssh
@@ -23,5 +25,6 @@
 
 # submodules
 !/.nano
+!/.vim_runtime
 !/.credentials
 !/.gitignores
