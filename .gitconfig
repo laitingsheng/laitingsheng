@@ -35,26 +35,5 @@
     recurseSubmodules = true
 [color]
     ui = always
-[color "status"]
-    added = green
-    changed = yellow bold
-    untracked = red bold
-    branch = blue bold
-    remoteBranch = cyan bold
-    updated = yellow
-    noBranch = red bold
-    localBranch = green bold
-    unmerged = magenta bold
 [column]
     ui = auto
-[color "transport"]
-    rejected = red bold
-[color "push"]
-    error = red bold
-[color "branch"]
-    current = green bold
-    local = magenta
-    remote = cyan
-    upstream = blue
-[color "advice"]
-    hint = yellow

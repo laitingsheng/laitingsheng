@@ -61,7 +61,7 @@ UseTab: false
 ---
 Language: Cpp
 
-AccessModifierOffset: 0
+AccessModifierOffset: -4
 AllowAllConstructorInitializersOnNextLine: true
 AllowShortLambdasOnASingleLine: Inline
 AlwaysBreakTemplateDeclarations: Yes
