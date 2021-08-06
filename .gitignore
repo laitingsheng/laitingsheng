@@ -10,6 +10,7 @@
 !/.nanorc
 !/.vimrc
 !/.clang-format
+!/.clang-format.*
 !/.bashrc
 !/.profile
 !/.bash_logout

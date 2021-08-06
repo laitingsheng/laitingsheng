@@ -1,6 +1,6 @@
 ---
 # Base Style
-BasedOnStyle: LLVM
+BasedOnStyle: Microsoft
 
 AlignAfterOpenBracket: AlwaysBreak
 AlignConsecutiveAssignments: None
@@ -9,6 +9,7 @@ AlignConsecutiveDeclarations: None
 AlignConsecutiveMacros: None
 AlignEscapedNewlines: DontAlign
 AlignOperands: DontAlign
+AlignTrailingComments: false
 AllowAllArgumentsOnNextLine: true
 AllowAllParametersOfDeclarationOnNextLine: true
 AllowShortBlocksOnASingleLine: Empty
@@ -19,9 +20,9 @@ AllowShortIfStatementsOnASingleLine: Never
 AllowShortLoopsOnASingleLine: false
 AlwaysBreakAfterReturnType: None
 AlwaysBreakBeforeMultilineStrings: false
-BinPackArguments: true
-BinPackParameters: true
-BitFieldColonSpacing: true
+BinPackArguments: false
+BinPackParameters: false
+BitFieldColonSpacing: Both
 BreakBeforeBinaryOperators: All
 BreakBeforeBraces: Allman
 BreakBeforeTernaryOperators: false
@@ -43,7 +44,7 @@ PointerAlignment: Middle
 SortIncludes: CaseSensitive
 SpaceAfterCStyleCast: false
 SpaceAfterLogicalNot: false
-SpaceAroundPointerQualifiers: true
+SpaceAroundPointerQualifiers: Both
 SpaceBeforeAssignmentOperators: true
 SpaceBeforeCaseColon: false
 SpaceBeforeParens: ControlStatements
@@ -57,7 +58,7 @@ SpacesInParentheses: false
 SpacesInSquareBrackets: false
 TabWidth: 4
 UseCRLF: false
-UseTab: false
+UseTab: Never
 ---
 Language: Cpp
 
