@@ -1,3 +1,6 @@
 channels:
   - defaults
   - conda-forge
+create_default_packages:
+  - ipykernel
+  - pandas
