@@ -11,20 +11,22 @@
 !/.vimrc
 !/.clang-format
 !/.clang-format.*
-!/.bashrc
 !/.profile
+!/.bash_profile
 !/.bash_logout
 !/.condarc
 
 # directories
+!/.bashrcs
 !/.config
+!/.envs
 !/.ssh
 !/.subversion
 !/.conan
 !/.scripts
-!/.dependabot
 !/.docker
 !/.jupyter
+!/.github
 
 # submodules
 !/.nano
