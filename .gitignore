@@ -7,29 +7,40 @@
 !/.gitignore
 !/.gitmodules
 !/.gitconfig
-!/.nanorc
-!/.vimrc
-!/.clang-format
 !/.clang-format.*
 !/.profile
 !/.bash_profile
+!/.bashrc
+!/.bash_aliases
+!/.bash_envs
 !/.bash_logout
+!/.zshenv
+!/.zprofile
+!/.zshrc
+!/.p10k.zsh
+!/.zlogin
+!/.zlogout
 !/.condarc
+!/.nanorc
+!/.vimrc
 
 # directories
-!/.bashrcs
+!/.bash
+!/.zsh
 !/.config
 !/.envs
 !/.ssh
 !/.subversion
 !/.conan
-!/.scripts
 !/.docker
 !/.jupyter
 !/.github
 
 # submodules
+!/.scripts
 !/.nano
 !/.vim_runtime
 !/.credentials
 !/.gitignores
+!/.oh-my-bash
+!/.oh-my-zsh
