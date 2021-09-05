@@ -13,3 +13,27 @@
 [submodule ".vim_runtime"]
 	path = .vim_runtime
 	url = https://github.com/amix/vimrc.git
+[submodule ".oh-my-zsh"]
+	path = .oh-my-zsh
+	url = git@github.com:ohmyzsh/ohmyzsh.git
+[submodule ".zsh/syntax-highlighting"]
+	path = .zsh/syntax-highlighting
+	url = git@github.com:zsh-users/zsh-syntax-highlighting.git
+[submodule ".zsh/history-substring-search"]
+	path = .zsh/history-substring-search
+	url = git@github.com:zsh-users/zsh-history-substring-search.git
+[submodule ".zsh/autosuggestions"]
+	path = .zsh/autosuggestions
+	url = git@github.com:zsh-users/zsh-autosuggestions.git
+[submodule ".zsh/completions"]
+	path = .zsh/completions
+	url = git@github.com:zsh-users/zsh-completions.git
+[submodule ".oh-my-bash"]
+	path = .oh-my-bash
+	url = git@github.com:ohmybash/oh-my-bash.git
+[submodule ".zsh/conda-completion"]
+	path = .zsh/conda-completion
+	url = git@github.com:esc/conda-zsh-completion.git
+[submodule ".zsh/powerlevel10k"]
+	path = .zsh/powerlevel10k
+	url = git@github.com:romkatv/powerlevel10k.git
