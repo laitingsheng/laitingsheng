@@ -25,6 +25,7 @@
 !/.vimrc
 
 # directories
+!/.plugins
 !/.bash
 !/.zsh
 !/.config

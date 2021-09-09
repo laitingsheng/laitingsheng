@@ -73,7 +73,6 @@ completions=(
 aliases=(
     chmod
     general
-    ls
 )
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-bash/plugins/*)
@@ -82,6 +81,7 @@ aliases=(
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
     bashmarks
+    system-utils
 )
 
 source $OSH/oh-my-bash.sh

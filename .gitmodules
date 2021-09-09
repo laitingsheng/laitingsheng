@@ -37,3 +37,6 @@
 [submodule ".zsh/powerlevel10k"]
 	path = .zsh/powerlevel10k
 	url = git@github.com:romkatv/powerlevel10k.git
+[submodule ".plugins/system-utils"]
+	path = .plugins/system-utils
+	url = git@github.com:laitingsheng/system-utils-plugin.git
