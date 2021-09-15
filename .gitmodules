@@ -40,3 +40,6 @@
 [submodule ".plugins/system-utils"]
 	path = .plugins/system-utils
 	url = git@github.com:laitingsheng/system-utils-plugin.git
+[submodule "leetcode"]
+	path = leetcode
+	url = git@github.com:laitingsheng/LeetCode.git
