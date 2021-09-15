@@ -45,3 +45,5 @@
 !/.gitignores
 !/.oh-my-bash
 !/.oh-my-zsh
+!/cpps
+!/leetcode
