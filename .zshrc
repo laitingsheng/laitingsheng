@@ -82,6 +82,7 @@ plugins=(
     zsh-completions
     conda-zsh-completion
     system-utils
+    k
 )
 
 autoload -U compinit && compinit

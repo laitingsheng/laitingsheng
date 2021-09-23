@@ -43,3 +43,9 @@
 [submodule "leetcode"]
 	path = leetcode
 	url = git@github.com:laitingsheng/LeetCode.git
+[submodule "pages"]
+	path = pages
+	url = git@github.com:laitingsheng/laitingsheng.github.io.git
+[submodule ".zsh/k"]
+	path = .zsh/k
+	url = git@github.com:supercrabtree/k.git

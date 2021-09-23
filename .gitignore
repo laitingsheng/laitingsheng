@@ -45,5 +45,6 @@
 !/.gitignores
 !/.oh-my-bash
 !/.oh-my-zsh
+!/pages
 !/cpps
 !/leetcode
