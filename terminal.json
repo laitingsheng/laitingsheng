@@ -1,0 +1,90 @@
+{
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "actions":
+  [
+      {
+          "command": "closePane",
+          "keys": "alt+shift+w"
+      },
+      {
+          "command":
+          {
+              "action": "splitPane",
+              "split": "horizontal",
+              "splitMode": "duplicate"
+          },
+          "keys": "alt+shift+h"
+      },
+      {
+          "command":
+          {
+              "action": "splitPane",
+              "split": "vertical",
+              "splitMode": "duplicate"
+          },
+          "keys": "alt+shift+v"
+      },
+      {
+          "command":
+          {
+              "action": "closeTab"
+          },
+          "keys": "ctrl+shift+w"
+      }
+  ],
+  "copyFormatting": "none",
+  "copyOnSelect": false,
+  "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+  "profiles":
+  {
+      "defaults":
+      {
+          "acrylicOpacity": 1.0,
+          "colorScheme": "Campbell",
+          "cursorShape": "filledBox",
+          "font":
+          {
+              "face": "MesloLGS NF"
+          },
+          "historySize": 10000,
+          "startingDirectory": "%USERPROFILE%",
+          "useAcrylic": true
+      },
+      "list":
+      [
+          {
+              "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+              "hidden": false,
+              "name": "Ubuntu",
+              "source": "Windows.Terminal.Wsl",
+              "startingDirectory": "\\\\wsl$\\Ubuntu\\home\\%USERNAME%"
+          },
+          {
+              "commandline": "pwsh.exe",
+              "guid": "{a2239799-60ea-4f60-9592-4ee86fc510ca}",
+              "name": "Windows PowerShell v7"
+          },
+          {
+              "commandline": "powershell.exe",
+              "guid": "{1cbfa81b-39d8-455c-a616-1248b6af0c53}",
+              "name": "Windows PowerShell v5"
+          },
+          {
+              "commandline": "cmd.exe",
+              "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+              "name": "Command Prompt"
+          },
+          {
+              "commandline": "cmd.exe /K %USERPROFILE%\\miniconda3\\Scripts\\activate.bat %USERPROFILE%\\miniconda3",
+              "guid": "{9ceb8e80-d697-4aa0-b602-ca206bbd4e51}",
+              "name": "Anaconda Prompt"
+          },
+          {
+              "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+              "hidden": false,
+              "name": "Azure Cloud Shell",
+              "source": "Windows.Terminal.Azure"
+          }
+      ]
+  }
+}
