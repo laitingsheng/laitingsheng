@@ -11,3 +11,69 @@ updates:
     labels:
       - dependabot
       - enhancement
+  - package-ecosystem: gitsubmodule
+    directory: /.zsh
+    schedule:
+      interval: weekly
+    reviewers:
+      - laitingsheng
+    assignees:
+      - laitingsheng
+    labels:
+      - dependabot
+      - enhancement
+  - package-ecosystem: gitsubmodule
+    directory: /git
+    schedule:
+      interval: weekly
+    reviewers:
+      - laitingsheng
+    assignees:
+      - laitingsheng
+    labels:
+      - dependabot
+      - enhancement
+  - package-ecosystem: gitsubmodule
+    directory: /git/public
+    schedule:
+      interval: weekly
+    reviewers:
+      - laitingsheng
+    assignees:
+      - laitingsheng
+    labels:
+      - dependabot
+      - enhancement
+  - package-ecosystem: gitsubmodule
+    directory: /git/public/abseil
+    schedule:
+      interval: weekly
+    reviewers:
+      - laitingsheng
+    assignees:
+      - laitingsheng
+    labels:
+      - dependabot
+      - enhancement
+  - package-ecosystem: gitsubmodule
+    directory: /git/public/facebook
+    schedule:
+      interval: weekly
+    reviewers:
+      - laitingsheng
+    assignees:
+      - laitingsheng
+    labels:
+      - dependabot
+      - enhancement
+  - package-ecosystem: gitsubmodule
+    directory: /git/public/fmtlib
+    schedule:
+      interval: weekly
+    reviewers:
+      - laitingsheng
+    assignees:
+      - laitingsheng
+    labels:
+      - dependabot
+      - enhancement

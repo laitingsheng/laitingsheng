@@ -36,6 +36,7 @@
 !/.docker
 !/.jupyter
 !/.github
+!/git
 
 # submodules
 !/.scripts
