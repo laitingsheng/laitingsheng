@@ -1,12 +1,18 @@
+[submodule ".credentials"]
+	path = .credentials
+	url = ../credentials.git
+[submodule "git/plugins/system-utils"]
+	path = git/plugins/system-utils
+	url = ../system-utils-plugin.git
+[submodule "git/Pages"]
+	path = git/Pages
+	url = ../laitingsheng.github.io.git
+[submodule "git/Scripts"]
+	path = git/Scripts
+	url = ../Scripts.git
 [submodule ".nano"]
 	path = .nano
 	url = git@github.com:scopatz/nanorc.git
-[submodule ".credentials"]
-	path = .credentials
-	url = git@github.com:laitingsheng/credentials.git
-[submodule ".scripts"]
-	path = .scripts
-	url = git@github.com:laitingsheng/Scripts.git
 [submodule ".gitignores"]
 	path = .gitignores
 	url = git@github.com:github/gitignore.git
@@ -37,15 +43,32 @@
 [submodule ".zsh/powerlevel10k"]
 	path = .zsh/powerlevel10k
 	url = git@github.com:romkatv/powerlevel10k.git
-[submodule ".plugins/system-utils"]
-	path = .plugins/system-utils
-	url = git@github.com:laitingsheng/system-utils-plugin.git
-[submodule "leetcode"]
-	path = leetcode
-	url = git@github.com:laitingsheng/LeetCode.git
-[submodule "pages"]
-	path = pages
-	url = git@github.com:laitingsheng/laitingsheng.github.io.git
 [submodule ".zsh/k"]
 	path = .zsh/k
 	url = git@github.com:supercrabtree/k.git
+[submodule "git/public/boost"]
+	path = git/public/boost
+	url = git@github.com:boostorg/boost.git
+	ignore = dirty
+[submodule "git/public/abseil/cpp"]
+	path = git/public/abseil/cpp
+	url = git@github.com:abseil/abseil-cpp.git
+	ignore = dirty
+[submodule "git/public/abseil/python"]
+	path = git/public/abseil/python
+	url = git@github.com:abseil/abseil-py.git
+	ignore = dirty
+[submodule "git/public/facebook/folly"]
+	path = git/public/facebook/folly
+	url = git@github.com:facebook/folly.git
+	ignore = dirty
+[submodule "git/public/fmtlib/fmt"]
+	path = git/public/fmtlib/fmt
+	url = git@github.com:fmtlib/fmt.git
+	ignore = dirty
+[submodule "git/public/electronicarts/EASTL"]
+	path = git/public/electronicarts/EASTL
+	url = git@github.com:electronicarts/EASTL.git
+[submodule "git/public/other/sol2"]
+	path = git/public/other/sol2
+	url = git@github.com:ThePhD/sol2.git

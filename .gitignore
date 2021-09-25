@@ -36,6 +36,7 @@
 !/.docker
 !/.jupyter
 !/.github
+!/git
 
 # submodules
 !/.scripts
@@ -45,6 +46,3 @@
 !/.gitignores
 !/.oh-my-bash
 !/.oh-my-zsh
-!/pages
-!/cpps
-!/leetcode
