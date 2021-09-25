@@ -1,6 +1,5 @@
 /*
 
 !/.gitignore
-!/bat
-!/gh
-!/pip
+
+!/profile.ps1
