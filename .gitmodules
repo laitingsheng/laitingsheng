@@ -1,51 +1,176 @@
+[submodule ".credentials"]
+	path = .credentials
+	url = ../credentials.git
+[submodule "git/plugins/system-utils"]
+	path = git/plugins/system-utils
+	url = ../system-utils-plugin.git
+[submodule "git/Pages"]
+	path = git/Pages
+	url = ../laitingsheng.github.io.git
+[submodule "git/Scripts"]
+	path = git/Scripts
+	url = ../Scripts.git
 [submodule ".nano"]
 	path = .nano
 	url = git@github.com:scopatz/nanorc.git
-[submodule ".credentials"]
-	path = .credentials
-	url = git@github.com:laitingsheng/credentials.git
-[submodule ".scripts"]
-	path = .scripts
-	url = git@github.com:laitingsheng/Scripts.git
+	ignore = dirty
 [submodule ".gitignores"]
 	path = .gitignores
 	url = git@github.com:github/gitignore.git
+	ignore = dirty
 [submodule ".vim_runtime"]
 	path = .vim_runtime
 	url = https://github.com/amix/vimrc.git
+	ignore = dirty
 [submodule ".oh-my-zsh"]
 	path = .oh-my-zsh
 	url = git@github.com:ohmyzsh/ohmyzsh.git
+	ignore = dirty
 [submodule ".zsh/syntax-highlighting"]
 	path = .zsh/syntax-highlighting
 	url = git@github.com:zsh-users/zsh-syntax-highlighting.git
+	ignore = dirty
 [submodule ".zsh/history-substring-search"]
 	path = .zsh/history-substring-search
 	url = git@github.com:zsh-users/zsh-history-substring-search.git
+	ignore = dirty
 [submodule ".zsh/autosuggestions"]
 	path = .zsh/autosuggestions
 	url = git@github.com:zsh-users/zsh-autosuggestions.git
+	ignore = dirty
 [submodule ".zsh/completions"]
 	path = .zsh/completions
 	url = git@github.com:zsh-users/zsh-completions.git
+	ignore = dirty
 [submodule ".oh-my-bash"]
 	path = .oh-my-bash
 	url = git@github.com:ohmybash/oh-my-bash.git
+	ignore = dirty
 [submodule ".zsh/conda-completion"]
 	path = .zsh/conda-completion
 	url = git@github.com:esc/conda-zsh-completion.git
+	ignore = dirty
 [submodule ".zsh/powerlevel10k"]
 	path = .zsh/powerlevel10k
 	url = git@github.com:romkatv/powerlevel10k.git
-[submodule ".plugins/system-utils"]
-	path = .plugins/system-utils
-	url = git@github.com:laitingsheng/system-utils-plugin.git
-[submodule "leetcode"]
-	path = leetcode
-	url = git@github.com:laitingsheng/LeetCode.git
-[submodule "pages"]
-	path = pages
-	url = git@github.com:laitingsheng/laitingsheng.github.io.git
+	ignore = dirty
 [submodule ".zsh/k"]
 	path = .zsh/k
 	url = git@github.com:supercrabtree/k.git
+	ignore = dirty
+[submodule "git/public/boost"]
+	path = git/public/boost
+	url = git@github.com:boostorg/boost.git
+	ignore = dirty
+[submodule "git/public/abseil/cpp"]
+	path = git/public/abseil/cpp
+	url = git@github.com:abseil/abseil-cpp.git
+	ignore = dirty
+[submodule "git/public/abseil/python"]
+	path = git/public/abseil/python
+	url = git@github.com:abseil/abseil-py.git
+	ignore = dirty
+[submodule "git/public/facebook/folly"]
+	path = git/public/facebook/folly
+	url = git@github.com:facebook/folly.git
+	ignore = dirty
+[submodule "git/public/fmtlib/fmt"]
+	path = git/public/fmtlib/fmt
+	url = git@github.com:fmtlib/fmt.git
+	ignore = dirty
+[submodule "git/public/electronicarts/EASTL"]
+	path = git/public/electronicarts/EASTL
+	url = git@github.com:electronicarts/EASTL.git
+	ignore = dirty
+[submodule "git/public/other/sol2"]
+	path = git/public/other/sol2
+	url = git@github.com:ThePhD/sol2.git
+	ignore = dirty
+[submodule "git/public/sogou/workflow"]
+	path = git/public/sogou/workflow
+	url = git@github.com:sogou/workflow.git
+	ignore = dirty
+[submodule "git/public/JetBrains/compose-jb"]
+	path = git/public/JetBrains/compose-jb
+	url = git@github.com:JetBrains/compose-jb.git
+	ignore = dirty
+[submodule "git/public/numba/numba"]
+	path = git/public/numba/numba
+	url = git@github.com:numba/numba.git
+	ignore = dirty
+[submodule "git/public/numpy/numpy"]
+	path = git/public/numpy/numpy
+	url = git@github.com:numpy/numpy.git
+	ignore = dirty
+[submodule "git/public/scipy/scipy"]
+	path = git/public/scipy/scipy
+	url = git@github.com:scipy/scipy.git
+	ignore = dirty
+[submodule "git/public/dask/dask"]
+	path = git/public/dask/dask
+	url = git@github.com:dask/dask.git
+	ignore = dirty
+[submodule "git/public/dask/distributed"]
+	path = git/public/dask/distributed
+	url = git@github.com:dask/distributed.git
+	ignore = dirty
+[submodule "git/References"]
+	path = git/References
+	url = git@github.com:laitingsheng/References.git
+	ignore = dirty
+[submodule "git/public/other/vnpy"]
+	path = git/public/other/vnpy
+	url = git@github.com:vnpy/vnpy.git
+	ignore = dirty
+[submodule "git/public/electron/apps"]
+	path = git/public/electron/apps
+	url = git@github.com:electron/apps.git
+	ignore = dirty
+[submodule "git/public/electron/fiddle"]
+	path = git/public/electron/fiddle
+	url = git@github.com:electron/fiddle.git
+	ignore = dirty
+[submodule "git/public/electron/electron"]
+	path = git/public/electron/electron
+	url = git@github.com:electron/electron.git
+	ignore = dirty
+[submodule "git/public/other/muduo"]
+	path = git/public/other/muduo
+	url = git@github.com:chenshuo/muduo.git
+	ignore = dirty
+[submodule "git/public/other/FreeNOS"]
+	path = git/public/other/FreeNOS
+	url = git@github.com:nieklinnenbank/FreeNOS.git
+	ignore = dirty
+[submodule "git/public/other/libev"]
+	path = git/public/other/libev
+	url = git@github.com:enki/libev.git
+	ignore = dirty
+[submodule "git/public/libevent/libevent"]
+	path = git/public/libevent/libevent
+	url = git@github.com:libevent/libevent.git
+	ignore = dirty
+[submodule "git/public/openssl/openssl"]
+	path = git/public/openssl/openssl
+	url = git@github.com:openssl/openssl.git
+	ignore = dirty
+[submodule "git/public/other/cryptopp"]
+	path = git/public/other/cryptopp
+	url = git@github.com:weidai11/cryptopp.git
+	ignore = dirty
+[submodule "git/public/qt"]
+	path = git/public/qt
+	url = git@github.com:qt/qt5.git
+	ignore = dirty
+[submodule "git/public/lz4/lz4"]
+	path = git/public/lz4/lz4
+	url = git@github.com:lz4/lz4.git
+	ignore = dirty
+[submodule "git/public/cern/cling"]
+	path = git/public/cern/cling
+	url = git@github.com:root-project/cling.git
+	ignore = dirty
+[submodule "git/public/cern/root"]
+	path = git/public/cern/root
+	url = git@github.com:root-project/root.git
+	ignore = dirty

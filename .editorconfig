@@ -6,7 +6,7 @@ trim_trailing_whitespace = true
 insert_final_newline = true
 end_of_line = lf
 
-[{**/Makefile,.gitmodules,.git/config}]
+[{**/Makefile,.gitattributes,.gitconfig,.gitmodules,.git/config}]
 indent_style = tab
 
 [**/*.{json,yaml,yml,xml,html,css,tex,bib,scss,sass}]
