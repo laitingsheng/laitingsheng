@@ -1,6 +1,5 @@
-set -a
 for _f in ~/.envs/*; do
+    set -a
     . "$_f"
+    set +a
 done
-unset _f
-set +a
