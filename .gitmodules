@@ -94,3 +94,27 @@
 	path = git/public/JetBrains/compose-jb
 	url = git@github.com:JetBrains/compose-jb.git
 	ignore = dirty
+[submodule "git/public/numba/numba"]
+	path = git/public/numba/numba
+	url = git@github.com:numba/numba.git
+	ignore = dirty
+[submodule "git/public/numpy/numpy"]
+	path = git/public/numpy/numpy
+	url = git@github.com:numpy/numpy.git
+	ignore = dirty
+[submodule "git/public/scipy/scipy"]
+	path = git/public/scipy/scipy
+	url = git@github.com:scipy/scipy.git
+	ignore = dirty
+[submodule "git/public/dask/dask"]
+	path = git/public/dask/dask
+	url = git@github.com:dask/dask.git
+	ignore = dirty
+[submodule "git/public/dask/distributed"]
+	path = git/public/dask/distributed
+	url = git@github.com:dask/distributed.git
+	ignore = dirty
+[submodule "git/References"]
+	path = git/References
+	url = git@github.com:laitingsheng/References.git
+	ignore = dirty
