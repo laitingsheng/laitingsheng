@@ -1,6 +1,9 @@
 [submodule ".credentials"]
 	path = .credentials
-	url = ../credentials.git
+	url = ../Credentials.git
+[submodule ".secrets"]
+	path = .secrets
+	url = ../Secrets.git
 [submodule "git/plugins/system-utils"]
 	path = git/plugins/system-utils
 	url = ../system-utils-plugin.git
@@ -173,4 +176,45 @@
 [submodule "git/public/cern/root"]
 	path = git/public/cern/root
 	url = git@github.com:root-project/root.git
+	ignore = dirty
+[submodule "git/public/shadowsocks/shadowsocks"]
+	path = git/public/shadowsocks/shadowsocks
+	url = git@github.com:shadowsocks/shadowsocks.git
+	branch = master
+	ignore = dirty
+[submodule "git/public/shadowsocks/rust"]
+	path = git/public/shadowsocks/rust
+	url = git@github.com:shadowsocks/shadowsocks-rust.git
+	ignore = dirty
+[submodule "git/public/shadowsocks/libev"]
+	path = git/public/shadowsocks/libev
+	url = git@github.com:shadowsocks/shadowsocks-libev.git
+	ignore = dirty
+[submodule "git/public/shadowsocks/go"]
+	path = git/public/shadowsocks/go
+	url = git@github.com:shadowsocks/go-shadowsocks2.git
+	ignore = dirty
+[submodule "git/public/shadowsocks/v2ray-plugin"]
+	path = git/public/shadowsocks/v2ray-plugin
+	url = git@github.com:shadowsocks/v2ray-plugin.git
+	ignore = dirty
+[submodule "git/public/shadowsocks/crypto2"]
+	path = git/public/shadowsocks/crypto2
+	url = git@github.com:shadowsocks/crypto2.git
+	ignore = dirty
+[submodule "git/public/shadowsocks/manager"]
+	path = git/public/shadowsocks/manager
+	url = git@github.com:shadowsocks/shadowsocks-manager.git
+	ignore = dirty
+[submodule "git/public/shadowsocks/hub"]
+	path = git/public/shadowsocks/hub
+	url = git@github.com:shadowsocks/shadowsocks-hub.git
+	ignore = dirty
+[submodule "git/public/shadowsocks/crypto"]
+	path = git/public/shadowsocks/crypto
+	url = git@github.com:shadowsocks/shadowsocks-crypto.git
+	ignore = dirty
+[submodule "git/public/other/smartdns"]
+	path = git/public/other/smartdns
+	url = git@github.com:pymumu/smartdns.git
 	ignore = dirty
