@@ -39,5 +39,3 @@
 	ui = always
 [column]
 	ui = auto
-[url "git@github.com:"]
-	insteadOf = "https://github.com/"
