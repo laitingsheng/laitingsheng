@@ -102,6 +102,7 @@ $RECYCLE.BIN/
 !/.condarc
 !/.nanorc
 !/.vimrc
+!/terminal.json
 
 # directories
 !/.plugins
