@@ -117,6 +117,7 @@ $RECYCLE.BIN/
 !/.jupyter
 !/.github
 !/git
+!/pip
 !/Documents
 
 # submodules
