@@ -6,5 +6,9 @@ trim_trailing_whitespace = true
 insert_final_newline = true
 end_of_line = lf
 
-[**/*.{json,yaml,yml,xml,html,css,tex,bib,scss,sass}]
+[**/*.{json,xml,html,css,tex,bib,scss,sass}]
 indent_size = 2
+
+[**/*.{yml,yaml}]
+indent_size = 2
+indent_style = space
