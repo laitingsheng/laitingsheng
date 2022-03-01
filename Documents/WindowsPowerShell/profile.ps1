@@ -4,3 +4,4 @@
 #endregion
 
 Set-PoshPrompt -Theme powerlevel10k_modern
+Enable-PoshTransientPrompt
