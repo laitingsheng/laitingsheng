@@ -8,14 +8,14 @@ charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
 
-[*.{json,tex,html,xml,css,md}]
+[*.{json,tex,html,xml,css}]
 tab_width = 2
 
-[*.{yaml,yml,py,pyx}]
+[*.{yaml,yml,py,pxd,pyi,pyx,md}]
 indent_style = space
 
 [*.{yaml,yml}]
 indent_size = 2
 
-[*.{py,pyx}]
+[*.{md.py,pxd,pyi,pyx}]
 indent_size = 4
