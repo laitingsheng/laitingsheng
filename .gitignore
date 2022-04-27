@@ -85,6 +85,7 @@ $RECYCLE.BIN/
 !/.gitignore
 !/.gitmodules
 !/.gitconfig
+!/.git-credentials
 !/filemode.*.gitconfig
 !/.clang-format.*
 !/.profile
