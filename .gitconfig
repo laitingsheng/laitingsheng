@@ -38,6 +38,8 @@
 	ui = auto
 [include]
 	path = ~/.credentials/system.gitconfig
+[include]
+	path = ~/.credentials/others.gitconfig
 [url "ssh://git@github.com/"]
 	insteadOf = https://github.com/
 [url "ssh://git@gitlab.com/"]
