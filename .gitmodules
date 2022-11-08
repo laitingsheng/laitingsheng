@@ -78,3 +78,6 @@
 	url = git@github.com:supercrabtree/k.git
 	branch = master
 	ignore = dirty
+[submodule "git/Notes"]
+	path = git/Notes
+	url = git@github.com:laitingsheng/Notes.git

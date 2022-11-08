@@ -12,7 +12,6 @@ custom_channels:
   bioconda: https://mirrors.aliyun.com/anaconda/cloud
   menpo: https://mirrors.aliyun.com/anaconda/cloud
   pytorch: https://mirrors.aliyun.com/anaconda/cloud
-  pytorch-lts: https://mirrors.aliyun.com/anaconda/cloud
   simpleitk: https://mirrors.aliyun.com/anaconda/cloud
   Paddle: https://mirrors.aliyun.com/anaconda/cloud
 env_prompt: ({name})
