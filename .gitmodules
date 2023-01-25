@@ -6,10 +6,6 @@
 	path = .secrets
 	url = ../Secrets.git
 	branch = main
-[submodule "git/plugins/system-utils"]
-	path = git/plugins/system-utils
-	url = ../system-utils-plugin.git
-	branch = main
 [submodule "git/Pages"]
 	path = git/Pages
 	url = ../laitingsheng.github.io.git
@@ -20,64 +16,73 @@
 	branch = main
 [submodule ".nano"]
 	path = .nano
-	url = git@github.com:scopatz/nanorc.git
+	url = ../../scopatz/nanorc.git
 	branch = master
 	ignore = dirty
 [submodule ".gitignores"]
 	path = .gitignores
-	url = git@github.com:github/gitignore.git
+	url = ../../github/gitignore.git
 	branch = main
 	ignore = dirty
 [submodule ".vim_runtime"]
 	path = .vim_runtime
-	url = git@github.com:amix/vimrc.git
+	url = ../../amix/vimrc.git
 	branch = master
 	ignore = dirty
 [submodule ".oh-my-zsh"]
 	path = .oh-my-zsh
-	url = git@github.com:ohmyzsh/ohmyzsh.git
-	branch = master
-	ignore = dirty
-[submodule ".zsh/syntax-highlighting"]
-	path = .zsh/syntax-highlighting
-	url = git@github.com:zsh-users/zsh-syntax-highlighting.git
-	branch = master
-	ignore = dirty
-[submodule ".zsh/history-substring-search"]
-	path = .zsh/history-substring-search
-	url = git@github.com:zsh-users/zsh-history-substring-search.git
-	branch = master
-	ignore = dirty
-[submodule ".zsh/autosuggestions"]
-	path = .zsh/autosuggestions
-	url = git@github.com:zsh-users/zsh-autosuggestions.git
-	branch = master
-	ignore = dirty
-[submodule ".zsh/completions"]
-	path = .zsh/completions
-	url = git@github.com:zsh-users/zsh-completions.git
+	url = ../../ohmyzsh/ohmyzsh.git
 	branch = master
 	ignore = dirty
 [submodule ".oh-my-bash"]
 	path = .oh-my-bash
-	url = git@github.com:ohmybash/oh-my-bash.git
-	branch = master
-	ignore = dirty
-[submodule ".zsh/conda-completion"]
-	path = .zsh/conda-completion
-	url = git@github.com:esc/conda-zsh-completion.git
-	branch = master
-	ignore = dirty
-[submodule ".zsh/powerlevel10k"]
-	path = .zsh/powerlevel10k
-	url = git@github.com:romkatv/powerlevel10k.git
-	branch = master
-	ignore = dirty
-[submodule ".zsh/k"]
-	path = .zsh/k
-	url = git@github.com:supercrabtree/k.git
+	url = ../../ohmybash/oh-my-bash.git
 	branch = master
 	ignore = dirty
 [submodule "git/Notes"]
 	path = git/Notes
-	url = git@github.com:laitingsheng/Notes.git
+	url = ../Notes.git
+	branch = main
+[submodule ".zsh/plugins/conda-zsh-completion"]
+	path = .zsh/plugins/conda-zsh-completion
+	url = ../../esc/conda-zsh-completion.git
+	branch = master
+	ignore = dirty
+[submodule ".zsh/plugins/k"]
+	path = .zsh/plugins/k
+	url = ../../supercrabtree/k.git
+	branch = master
+	ignore = dirty
+[submodule ".zsh/plugins/system-utils"]
+	path = .zsh/plugins/system-utils
+	url = ../system-utils-plugin.git
+	branch = main
+[submodule ".zsh/plugins/zsh-autosuggestions"]
+	path = .zsh/plugins/zsh-autosuggestions
+	url = ../../zsh-users/zsh-autosuggestions.git
+	branch = master
+	ignore = dirty
+[submodule ".zsh/plugins/zsh-completions"]
+	path = .zsh/plugins/zsh-completions
+	url = ../../zsh-users/zsh-completions.git
+	branch = master
+	ignore = dirty
+[submodule ".zsh/plugins/zsh-history-substring-search"]
+	path = .zsh/plugins/zsh-history-substring-search
+	url = ../../zsh-users/zsh-history-substring-search.git
+	branch = master
+	ignore = dirty
+[submodule ".zsh/plugins/zsh-syntax-highlighting"]
+	path = .zsh/plugins/zsh-syntax-highlighting
+	url = ../../zsh-users/zsh-syntax-highlighting.git
+	branch = master
+	ignore = dirty
+[submodule ".zsh/themes"]
+	path = .zsh/themes
+	url = ../../romkatv/powerlevel10k.git
+	branch = master
+	ignore = dirty
+[submodule "git/vcpkg"]
+	path = git/vcpkg
+	url = ../../microsoft/vcpkg.git
+	branch = master

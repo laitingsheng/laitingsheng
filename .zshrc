@@ -70,7 +70,7 @@ CASE_SENSITIVE="true"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
+ZSH_CUSTOM=~/.zsh
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/

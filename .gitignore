@@ -114,7 +114,7 @@ $RECYCLE.BIN/
 !/.envs
 !/.ssh
 !/.subversion
-!/.conan
+!/.conan2
 !/.docker
 !/.jupyter
 !/.github

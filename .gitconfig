@@ -9,41 +9,57 @@
 	forceSignAnnotated = true
 	gpgSign = true
 [core]
+	filemode = true
+	hideDotFiles = true
+	ignoreCase = false
 	eol = lf
 	autocrlf = false
 	safecrlf = false
-	ignoreCase = false
 	symlinks = true
+	compression = 9
+	packedGitWindowSize = 2g
+	whitespace = space-before-tab,trailing-space
+	fsync = all
+	fsyncMethod = batch
 	longpaths = true
-[tar]
-	umask = 0022
-[push]
-	default = current
-	followTags = true
-	gpgSign = if-asked
-[pull]
-	rebase = merges
-[merge]
-	directoryRenames = true
-	renormalize = true
+[clean]
+	requireForce = true
+[color]
+	ui = auto
+[column]
+	ui = auto
 [diff]
 	renames = copies
 [fetch]
 	prune = true
 	pruneTags = true
 	recurseSubmodules = true
-[color]
-	ui = always
-[column]
-	ui = auto
-[include]
-	path = ~/.credentials/system.gitconfig
-[include]
-	path = ~/.credentials/others.gitconfig
+[merge]
+	directoryRenames = true
+	renormalize = true
+[pack]
+	window = 16
+	depth = 128
+	windowMemory = 0
+	threads = 0
+[pull]
+	ff = only
+	rebase = true
+[push]
+	autoSetupRemote = true
+	default = current
+	followTags = true
+	gpgSign = if-asked
+[tar]
+	umask = 0022
 [url "ssh://git@github.com/"]
 	insteadOf = https://github.com/
 [url "ssh://git@gitlab.com/"]
 	insteadOf = https://gitlab.com/
+[include]
+	path = ~/.credentials/system.gitconfig
+[include]
+	path = ~/.credentials/others.gitconfig
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f

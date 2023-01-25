@@ -1,9 +1,0 @@
-{
- "remotes": [
-  {
-   "name": "conan-center",
-   "url": "https://conan.bintray.com",
-   "verify_ssl": true
-  }
- ]
-}

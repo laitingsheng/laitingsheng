@@ -12,3 +12,8 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+
+# Added by Toolbox App
+export PATH="$PATH:/usr/local/bin"
+

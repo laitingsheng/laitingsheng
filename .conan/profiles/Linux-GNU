@@ -1,3 +1,0 @@
-include(.linux.ini)
-include(.release.ini)
-include(.gcc.ini)
