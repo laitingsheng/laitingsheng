@@ -1,1 +1,5 @@
-HOMEBREW_BOTTLE_DOMAIN=https://mirrors.sustech.edu.cn/homebrew-bottles/bottles
+HOMEBREW_API_DOMAIN="https://mirrors.sustech.edu.cn/homebrew-bottles/api"
+HOMEBREW_BOTTLE_DOMAIN="https://mirrors.sustech.edu.cn/homebrew-bottles"
+HOMEBREW_BREW_GIT_REMOTE="https://mirrors.sustech.edu.cn/homebrew/brew.git"
+HOMEBREW_CORE_GIT_REMOTE="https://mirrors.sustech.edu.cn/homebrew/homebrew-core.git"
+HOMEBREW_PIP_INDEX_URL="https://mirrors.sustech.edu.cn/pypi/simple"
