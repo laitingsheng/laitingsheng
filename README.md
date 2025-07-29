@@ -2,6 +2,8 @@
 
 [![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=laitingsheng&count_private=true&show_icons=true&theme=github_dark)](https://github.com/laitingsheng)
 
-[![WakaTime Languages](https://wakatime.com/share/@laitingsheng/b241bcbc-cc39-455b-bdaa-aa949d91b3c5.svg)](https://github.com/laitingsheng)
+[![WakaTime Languages](https://wakatime.com/share/@laitingsheng/b05ddaad-7cc4-4c6b-bfa7-d1b5c0c60dc0.svg)](https://github.com/laitingsheng)
 
-[![WakaTime Activity](https://wakatime.com/share/@laitingsheng/8b3ebe9a-6a85-492d-8d16-966dac058d6c.png)](https://github.com/laitingsheng)
+[![WakaTime Categories](https://wakatime.com/share/@laitingsheng/71040281-3a39-478c-8eaa-a44bcbb7cf47.svg)](https://github.com/laitingsheng)
+
+[![WakaTime Activity](https://wakatime.com/share/@laitingsheng/cb39dda3-0b63-4963-9d43-8594d982047f.svg)](https://github.com/laitingsheng)
