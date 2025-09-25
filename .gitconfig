@@ -1,0 +1,58 @@
+[gpg]
+	format = ssh
+[user]
+	name = Tinson Lai
+	email = laitingsheng@hotmail.com
+	signingkey = ~/.ssh/id_ecdsa.pub
+[init]
+	defaultBranch = main
+[commit]
+	gpgsign = true
+[tag]
+	forceSignAnnotated = true
+	gpgSign = true
+[core]
+	filemode = true
+	hideDotFiles = true
+	ignoreCase = false
+	eol = lf
+	autocrlf = false
+	safecrlf = false
+	symlinks = true
+	compression = 9
+	packedGitWindowSize = 2g
+	whitespace = space-before-tab,trailing-space
+	fsync = all
+	fsyncMethod = batch
+	longpaths = true
+[clean]
+	requireForce = true
+[color]
+	ui = auto
+[column]
+	ui = auto
+[diff]
+	renames = copies
+[fetch]
+	prune = true
+	pruneTags = true
+	recurseSubmodules = true
+[merge]
+	directoryRenames = true
+	renormalize = true
+[pull]
+	ff = only
+	rebase = true
+[push]
+	autoSetupRemote = true
+	default = current
+	followTags = true
+	gpgSign = if-asked
+[tar]
+	umask = 0022
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
+[url "ssh://git@gitlab.com/"]
+	insteadOf = https://gitlab.com/
+[includeIf "gitdir:~/git/nvidia/"]
+    path = ~/.nvidia.gitconfig
