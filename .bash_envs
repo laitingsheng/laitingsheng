@@ -1,0 +1,7 @@
+export POWERLINE_PROMPT="user_info cwd scm in_vim python_venv ruby"
+
+for _f in ~/.envs/*; do
+    set -a
+    . "$_f"
+    set +a
+done

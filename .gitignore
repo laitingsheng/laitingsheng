@@ -1,4 +1,26 @@
-/*
+*
 
+!/.aliases/
+!/.envs/
+
+!/.bash_envs
+!/.bash_history
+!/.bash_login
+!/.bash_logout
+!/.bash_profile
+!/.bashrc
 !/.gitconfig
 !/.gitignore
+!/.nanorc
+!/.p10k.zsh
+!/.vimrc
+!/.zlogin
+!/.zlogout
+!/.zprofile
+!/.zshenv
+!/.zshrc
+
+!/.aliases/*.sh
+/.aliases/*.private.sh
+!/.envs/*.sh
+/.envs/*.private.sh

@@ -1,0 +1,5 @@
+alias grep="grep --color=auto"
+alias ls="ls --color=auto"
+alias l="ls -CF"
+alias la="ls -AF"
+alias ll="ls -alhF"
