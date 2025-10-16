@@ -94,6 +94,8 @@ source $OSH/oh-my-bash.sh
 #   export EDITOR='mvim'
 # fi
 export EDITOR="vim"
+export HISTSIZE=1000000
+export HISTFILESIZE=1000000
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"

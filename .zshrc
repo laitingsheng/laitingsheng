@@ -115,6 +115,8 @@ source $ZSH/oh-my-zsh.sh
 #   export EDITOR='mvim'
 # fi
 export EDITOR="vim"
+export HISTSIZE=1000000
+export SAVEHIST=1000000
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
